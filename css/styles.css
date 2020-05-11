@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+
+}
+
+
+h1:hover {
+  cursor: pointer;
+  color: orange;
+  transition: 0.7s;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+
+header h2 {
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 30px;
+  color: #777777;
+  margin-top: 0;
+}
+
+header .container {
+  width: 1100px;
+  /* background: royalblue; */
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+header .info {
+  /* background-color: salmon; */
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+  margin-left: 180px;
+  padding-bottom: 30px;
+}
+
+header .logo {
+  /* background: seagreen; */
+  padding-left: 28px;
+}
+
+header .info p {
+  margin-left: 36px;
+}
+
+.medium {
+  text-align: center;
+  margin: 20px;
+}
+
+.medium p {
+  width:1035px;
+  text-align: left;
+  margin: 5px auto;
+  font-size: 26.7px;
+  color: #777777;
+  
+}
+
+.medium div {
+  margin-top: 90px;
+}
+
+.blog {
+  margin-top: 85px;
+}
+
+.contents {
+  display: flex;
+  width: 1035px;
+  margin: 0 auto 60px;
+  /* background: royalblue; */
+}
+
+.content {
+  margin-left: 200px;
+  
+}
+
+.date {
+  width:200px;
+  font-size: 16px;
+  padding-top: 14px;
+  color: #777777;
+}
+
+.content p {
+  font-size: 16px;
+  color: #777777;
+}
+
+.content h1 {
+  font-size: 22.4px;
+  font-weight: normal;
+}
+
+.movePage {
+  margin: 20px auto;
+  width: 500px;
+  text-align: center;
+}
+
+.blog a {
+  text-decoration: none;
+  border: solid 1px #333;
+  padding: 8px 14px;
+  font-weight: bold;
+  color: #777;
+}
+
+footer {
+  height: 800px;
+  border-width: thin ;
+  border: solid 1px #ddd;
+  border-left: none;
+  border-right: none;
+  width: 1035px;
+  height: 456px;
+  margin: 120px auto;
+  
+}
+
+footer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+.box1 {
+  width: 260px;
+  height: 260px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.introduction {
+  font-size: 16px;
+  color:#777;
+  line-height: 30px;
+}
+
+.fab {
+  width: 32px;
+  height: 32px;
+  margin-left: 2px;
+}
+
+.strong {
+  font-size: 18.8px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 7px;
+}
+
+.name {
+  margin-left: 20px;
+}
+
+.box2 {
+  font-size: 14.4px;
+  width: 213px;
+  height: 305px;
+  margin-left: 40px;
+}
+
+.box2 p {
+  color:#777;
+  font-size: 15px;
+  margin-top: 27px;
+}
+
+.box2 h2 {
+  font-size: 14px;
+}
+
+footer .container {
+  width: 1035px;
+  display: flex;
+  margin-top: 70px;
+}
+
+.last {
+  margin-left: 500px;
+  width: 200px;
+}
+
+
+.lastsection {
+  display: flex;
+  align-content: center;
+ 
+}
+
+.lastsection p {
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  margin-top: 0;
+  /* margin-left: 140px; */
+  width: 600px;
+}
+
